@@ -5,9 +5,11 @@
 $(document).ready(function(){
     $(window).on("scroll", function(){
         if ($(this).scrollTop() > 100){
-            $(".navbar").css("background-color","black");
+            $(".navbar").css("background-color","white");
+            $(".navbar-nav a").css("color","#000");
         }else{
             $(".navbar").css("background-color","transparent");
+            $(".navbar-nav a").css("color","#fff");
         }
 
     });
