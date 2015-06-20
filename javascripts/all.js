@@ -13255,11 +13255,16 @@ window.scrollReveal = (function( window ){
 
 
 $(document).ready(function(){
+
     $(window).on("scroll", function(){
         if ($(this).scrollTop() > 100){
+            $("nav").css("opacity","1");
             $(".navbar").css("background-color","white");
             $(".navbar-nav a").css("color","#000");
         }else{
+            // je commence par cacher la barre de navigation
+            // $("nav").hide();
+            $("nav").css("opacity","0");
             $(".navbar").css("background-color","transparent");
             $(".navbar-nav a").css("color","#fff");
         }

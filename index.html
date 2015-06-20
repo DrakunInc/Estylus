@@ -14,7 +14,7 @@
   </head>
 
   <body class="index">
-    <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-wagon hidenavbar" role="navigation">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -53,16 +53,17 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-        <div id="banner">
+    <div id="banner">
     <div class="container appearIn">
         <div class="row">
             <div class="col-xs-6">
-                <h1>Styl.us</h1>
-                <br>
-                <p>Turn your pen into you best friend</p>
-                <p>Make every line you write count..</p>
-                <br>
-                <a href="" class="btn btn-primary btn-lg">GET YOUR STYLUS</a>
+                <div>
+                        <img src="images/logowhite.png" />
+                </div>
+                <div>
+                    <p>La technologie a votre service</p>
+                    <p>Make every line you write count..</p>
+                </div>
             </div>
             <div class="col-xs-6"></div>
         </div>
@@ -144,6 +145,7 @@
                 </div>
         </div>
     </div>
+</div>
 
     <div id="map" style="width: 100%; height: 400px;"></div>
 
@@ -168,6 +170,7 @@
         });
     </script>
 
+
         <div id="footer">
             <div class="container">
                 <div class="row">
@@ -179,16 +182,19 @@
                             <li><a href=""><i class="fa fa-twitter"></i></a></li>
                         </ul>
                     </div>
-                    <div class="col-xs-8 text-right">
-                        <p>Stylus is a fictive product by LeWagon</p>
+                    <div class="col-xs-4 text-center">
+                    <a href="#banner">
+                            <i class="fa fa-angle-up i-fleche pulse"></i>
+                        </a>
+                    </div>
+                    <div class="col-xs-4 text-right">
+                        <p>Stylus is a fictive product by @bindtek</p>
                     </div>
                 </div>
             </div>
         </div>
         <script>
-
           window.sr = new scrollReveal();
-
         </script>
     </body>
 </html>
