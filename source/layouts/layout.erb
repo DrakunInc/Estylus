@@ -14,7 +14,7 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-wagon hidenavbar" role="navigation">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -61,7 +61,8 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-        <%= yield %>
+    <%= yield %>
+
         <div id="footer">
             <div class="container">
                 <div class="row">
@@ -73,16 +74,19 @@
                             <li><a href=""><i class="fa fa-twitter"></i></a></li>
                         </ul>
                     </div>
-                    <div class="col-xs-8 text-right">
-                        <p>Stylus is a fictive product by LeWagon</p>
+                    <div class="col-xs-4 text-center">
+                    <a href="#banner">
+                            <i class="fa fa-angle-up i-fleche pulse"></i>
+                        </a>
+                    </div>
+                    <div class="col-xs-4 text-right">
+                        <p>Stylus is a fictive product by @bindtek</p>
                     </div>
                 </div>
             </div>
         </div>
         <script>
-
           window.sr = new scrollReveal();
-
         </script>
     </body>
 </html>

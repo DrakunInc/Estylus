@@ -34,3 +34,42 @@
     -webkit-animation: appearIn 2s 0.5s ease forwards;
     -moz-animation: appearIn 2s 0.5s ease forwards;
 }
+
+
+// CACHER LA NAV BAR
+@keyframes hidenavbar {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+
+}
+
+@-moz-keyframes hidenavbar {
+        0% {
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+
+}
+
+@-webkit-keyframes hidenavbar {
+        0% {
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+
+}
+
+.hidenavbar{
+    opacity: 0;
+    // animation: hidenavbar 2s 0.5s ease forwards;
+    // -webkit-animation: hidenavbar 2s 0.5s ease forwards;
+    // -moz-animation: hidenavbar 2s 0.5s ease forwards;
+}

@@ -1,7 +1,7 @@
 #banner {
     background-image: image-url("background.jpg");
     color: white;
-    padding: 150px 0;
+    padding: 80px 0;
     background-size: cover;
     height: 650px;
 
@@ -15,13 +15,14 @@
         font-size: 25px;
         font-weight: 100;
     }
+
+    img{
+        border: 0;
+        width: 500px;
+        margin: 10px;
+    }
 }
 
-// .image-reduite {
-//     width:200px;
-//     height:200px;
-//     background-size:cover;
-// }
 
 .cardtemoignage{
     background: white;
@@ -40,6 +41,6 @@
 }
 
 .block-fleche{
-    position: relative;
-    top:120px;
+  position: relative;
+  top: 200px;
 }
