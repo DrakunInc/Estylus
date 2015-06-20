@@ -7,14 +7,14 @@ $base-font: "Open Sans", "Helvetica", "sans-serif";
 $header-font: "Montserrat", "sans-serif";
 
 // Local fonts (uncomment following lines)
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
+@font-face {
+  font-family: "Gotham";
+  src: font-url('gotham_book.eot');
+  src: font-url('gotham_book.eot?#iefix') format('embedded-opentype'),
+       font-url('gotham_book.woff') format('woff'),
+       font-url('gotham_book.ttf') format('truetype')
+}
+$gotham: "Gotham";
 
 // Font-size and line-height
 $base-size: 16px;
