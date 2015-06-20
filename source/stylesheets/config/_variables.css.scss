@@ -25,7 +25,7 @@ $base-height: 1.4;
  * ------------------------------------- */
 // Scheme
 $red: #EE5F5B;
-$blue: #469AE0;
+$blue: #00BCD4;
 $yellow: #FDB631;
 $orange: #E67E22;
 $green: #32B796;
@@ -39,3 +39,15 @@ $gray-dark:    lighten(#000, 20%);   // #333
 $gray:         lighten(#000, 33.5%); // #555
 $gray-light:   lighten(#000, 46.7%); // #777
 $gray-lighter: lighten(#000, 93.5%); // #eee
+
+
+// ma palette sass
+
+$primary-color-light:  #00796B;
+$primary-color:        #009688;
+$primary-color-light:  #B2DFDB;
+$primary-color-text:   #FFFFFF;
+$accent-color:         #FF5722;
+$primary-text-color:   #212121;
+$secondary-text-color: #727272;
+$divider-color:        #B6B6B6;
