@@ -3,6 +3,10 @@
  * Fonts
  * ------------------------------------- */
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/gotham_book.eot");
+  src: url("../fonts/gotham_book.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham_book.woff") format("woff"), url("../fonts/gotham_book.ttf") format("truetype"); }
 /* -------------------------------------
  * Colors
  * ------------------------------------- */
@@ -9243,6 +9247,28 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
+@keyframes appearIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes appearIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes appearIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+/* line 31, /Users/drak/Documents/webapp/GITHUB/Estylus/source/stylesheets/layout/_anim.css.scss */
+.appearIn {
+  opacity: 0;
+  animation: appearIn 2s 0.5s ease forwards;
+  -webkit-animation: appearIn 2s 0.5s ease forwards;
+  -moz-animation: appearIn 2s 0.5s ease forwards; }
+
 /* line 2, /Users/drak/Documents/webapp/GITHUB/Estylus/source/stylesheets/layout/_footer.css.scss */
 #footer {
   background: #222222;
@@ -9281,7 +9307,7 @@ button.close {
  * ------------------------------------- */
 /* line 38, /Users/drak/Documents/webapp/GITHUB/Estylus/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
-  background: white;
+  background: transparent;
   font-family: "Montserrat", "sans-serif";
   border: none;
   font-weight: 400;
@@ -9296,7 +9322,7 @@ button.close {
   .navbar-wagon .navbar-nav > li > a:focus,
   .navbar-wagon .navbar-nav > .open > a:focus {
     outline: none;
-    color: black;
+    color: white;
     line-height: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -9314,7 +9340,7 @@ button.close {
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover {
     outline: none;
-    color: black;
+    color: white;
     padding-top: 5px;
     padding-bottom: 5px; }
   /* line 79, /Users/drak/Documents/webapp/GITHUB/Estylus/source/stylesheets/layout/_navbar.css.scss */
@@ -9325,11 +9351,11 @@ button.close {
     border-radius: 2px;
     margin-top: 10px;
     font-weight: bold;
-    background-color: lightgrey;
+    background-color: #E67E22;
     font-size: 12px; }
     /* line 88, /Users/drak/Documents/webapp/GITHUB/Estylus/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon .navbar-nav > li > a.btn:hover {
-      background-color: #868686; }
+      background-color: #64350b; }
   /* line 93, /Users/drak/Documents/webapp/GITHUB/Estylus/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 50px;
@@ -9376,7 +9402,7 @@ button.close {
   /* line 143, /Users/drak/Documents/webapp/GITHUB/Estylus/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand, .navbar-wagon .navbar-brand:hover {
     display: block;
-    color: black;
+    color: white;
     padding-top: 0;
     padding-bottom: 0; } }
 /* -------------------------------------
@@ -9453,11 +9479,33 @@ body {
   /* line 8, /Users/drak/Documents/webapp/GITHUB/Estylus/source/stylesheets/pages/_home.css.scss */
   #banner h1 {
     font-size: 50px;
-    color: white; }
-  /* line 13, /Users/drak/Documents/webapp/GITHUB/Estylus/source/stylesheets/pages/_home.css.scss */
+    color: white;
+    font-family: "Gotham"; }
+  /* line 14, /Users/drak/Documents/webapp/GITHUB/Estylus/source/stylesheets/pages/_home.css.scss */
   #banner p {
     font-size: 25px;
     font-weight: 100; }
+
+/* line 26, /Users/drak/Documents/webapp/GITHUB/Estylus/source/stylesheets/pages/_home.css.scss */
+.cardtemoignage {
+  background: white;
+  padding: 40px;
+  box-shadow: 1px 1px 3px #d5d2d2;
+  margin: 10px; }
+  /* line 31, /Users/drak/Documents/webapp/GITHUB/Estylus/source/stylesheets/pages/_home.css.scss */
+  .cardtemoignage img {
+    width: 50%;
+    margin: 0 auto; }
+
+/* line 37, /Users/drak/Documents/webapp/GITHUB/Estylus/source/stylesheets/pages/_home.css.scss */
+.i-fleche {
+  font-size: 100px;
+  color: white; }
+
+/* line 42, /Users/drak/Documents/webapp/GITHUB/Estylus/source/stylesheets/pages/_home.css.scss */
+.block-fleche {
+  position: relative;
+  top: 120px; }
 
 /*
 ==============================================
